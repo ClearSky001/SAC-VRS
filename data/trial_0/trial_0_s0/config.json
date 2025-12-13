@@ -1,0 +1,45 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            400,
+            300
+        ]
+    },
+    "actor_critic":	"MLPActorCritic",
+    "alpha":	0.24200824159424822,
+    "batch_size":	256,
+    "env_fn":	"<function objective.<locals>.<lambda> at 0x000002319A1A5A80>",
+    "epochs":	50,
+    "exp_name":	"trial_0",
+    "gamma":	0.99,
+    "logger":	{
+        "<utils.logx_single.EpochLogger object at 0x000002318B567D50>":	{
+            "epoch_dict":	{},
+            "exp_name":	"trial_0",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"c:\\Users\\Lenovo\\Study\\RL_SpinningUp_and_Gymnasium\\hanium_RL\\data\\trial_0\\trial_0_s0",
+            "output_file":	{
+                "<_io.TextIOWrapper name='c:\\\\Users\\\\Lenovo\\\\Study\\\\RL_SpinningUp_and_Gymnasium\\\\hanium_RL\\\\data\\\\trial_0\\\\trial_0_s0\\\\progress.txt' mode='w' encoding='utf-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"trial_0",
+        "output_dir":	"c:\\Users\\Lenovo\\Study\\RL_SpinningUp_and_Gymnasium\\hanium_RL\\data\\trial_0\\trial_0_s0"
+    },
+    "lr":	0.0009143563946577052,
+    "max_ep_len":	1000,
+    "num_test_episodes":	10,
+    "polyak":	0.005,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "seed":	0,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50
+}
