@@ -1,7 +1,7 @@
 # SAC-VRS (Variance-Regularized Soft Actor-Critic via Reward Scaling)
 
 ## 프로젝트 소개 & 주요 성과
-KIPS ACK 2025에서 발표한 **Variance-Regularized Soft Actor-Critic (SAC-VRS)** 구현 리포지터리입니다. OpenAI SpinningUp의 SAC/PPO 코드를 Windows 친화적으로 리팩터링하고, **Reward Scaling + Variance Regularization**을 적용해 BipedalWalker-v3, Ant-v4와 같은 박스2D·MuJoCo 환경에서 학습 안정성을 높였습니다.
+[KIPS ACK 2025에서 발표한 **Variance-Regularized Soft Actor-Critic (SAC-VRS)**](https://koreascience.kr/article/CFKO202532457662089.page) 구현 리포지터리입니다. OpenAI SpinningUp의 SAC/PPO 코드를 Windows 친화적으로 리팩터링하고, **Reward Scaling + Variance Regularization**을 적용해 BipedalWalker-v3, Ant-v4와 같은 박스2D·MuJoCo 환경에서 학습 안정성을 높였습니다.
 - `sac/` 모듈은 표준 SAC 학습 루프에 **스케일링 보상, Q-variance 모니터링, Windows용 로거**를 통합했습니다.
 - `ppo/optuna_tune.py`는 Optuna 기반 하이퍼파라미터 탐색 파이프라인으로 PPO baseline을 튜닝합니다.
 - `AntTest_SAC.ipynb`, `bipedalTest_SAC*.ipynb`는 Colab/로컬에서 Reward Scaling 전후 지표를 비교하고 논문 Figure를 재현합니다.
