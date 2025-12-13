@@ -120,7 +120,7 @@ SAC-VRS/
 - SAC 코드 베이스를 Windows/Colab에서도 동작하도록 리팩터링 (`utils/logx_single`, MPI 제거).
 - Reward Scaling, Q-variance 모니터링 로직 구현 및 실험 지표 시각화.
 - Optuna 기반 PPO 하이퍼파라미터 탐색 파이프라인 구축.
-- ACK 2025 논문 및 발표 자료 작성, BipedalWalker/Ant 실험 결과 보고.
+- [ACK 2025 논문](https://koreascience.kr/article/CFKO202532457662089.page) 제목 제안 및 발표 자료 작성, BipedalWalker/Ant 실험 결과 보고.
 
 ---
 
